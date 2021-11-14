@@ -1,24 +1,31 @@
-import logo from './logo.svg';
+import Navbars from './components/Navbar';
 import './App.css';
+import React from 'react';
+import { HashRouter, Switch, Route } from 'react-router-dom'
+import ReactDOM from 'react-dom';
+import Projects from './pages/projects';
+import Ecs from './pages/ecs';
+import Courses from './pages/courses';
+import About from './pages/about';
+import Home from './pages/home';
 
+// ReactDOM.render(<BrowserRouter basename={process.env.PUBLIC_URL}><App /></BrowserRouter>, document.getElementById('root')
+// );
+
+// console.log(process.env.PUBLIC_URL);
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <HashRouter>
+      <Navbars />
+      <Switch>
+        <Route exact path='/'> <Home /> </Route>
+        <Route exact path='/about'> <About /> </Route>
+        <Route exact path='/courses'> <Courses /> </Route>
+        <Route exact path='/ecs'> <Ecs /> </Route>
+        <Route exact path='/proj'> <Projects /> </Route>
+      </Switch>
+    </HashRouter>
+    
   );
 }
 
