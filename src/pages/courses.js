@@ -144,6 +144,17 @@ const Courses = () => {
                 &emsp;&emsp;&emsp;&bull; Develop strategies of thinking that can be employed to learn, discover, and perhaps even create, mathematics
               </p>
             </li>
+            <li>
+              <br />
+              &ensp;-&emsp;<b>EE 360C (Algorithms)</b>
+              <br /> <br />
+
+              <p style={{fontSize: 12}}>
+                &emsp;&emsp;&emsp;&bull; Study of algorithms, design and application, and asymptotic complexity analysis <br/>
+                &emsp;&emsp;&emsp;&bull; Analyzing Graphs and different graph-based algorithms, including BFS, DFS, Dijkstra's, Bellman-Ford's, and Topological Sort <br />
+                &emsp;&emsp;&emsp;&bull; Introduction to classes of algorithms, including Greedy Algorithms, Divide and Conquer, and Dynamic Programming
+              </p>
+            </li>
           </ul>
           <br />
         </p>
