@@ -50,6 +50,19 @@ const Courses = () => {
               </p>
 
             </li>
+            <li>
+              <br />
+              &ensp;-&emsp;<b>EE 313 (Linear Systems and Signals)</b>
+              <br /> <br />
+
+              <p style={{fontSize: 12}}>
+                &emsp;&emsp;&emsp;&bull; In depth study of LTI systems and their properties <br/>
+                &emsp;&emsp;&emsp;&bull; Convolution of Continuous-Time and Discrete-Time Signals <br />
+                &emsp;&emsp;&emsp;&bull; Fourier Series and Fourier Transform of Continuous-Time and Discrete-Time Signals <br />
+                &emsp;&emsp;&emsp;&bull; Introduction to Filtering and Communication Systems
+              </p>
+
+            </li>
           </ul>
           <br />
           Computer Engineering Courses:
