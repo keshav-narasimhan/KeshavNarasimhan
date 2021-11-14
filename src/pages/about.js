@@ -25,9 +25,9 @@ const About = () => {
       }}>
         <p>
           <br /> <br /> <br /> <br />
-          My name is Keshav Narasimhan and I'm currently a freshman Electrical and Computer Engineering
+          My name is Keshav Narasimhan and I'm currently a sophomore Electrical and Computer Engineering
           student at the University of Texas at Austin. I am part of the Engineering Honors Program, looking to 
-          specialize in one of the Computer Engineering tracks offered (Software, Computer Architecture, Data Science).
+          specialize in the Software or Computer Architecture/Embedded Systems tracks.
           <br /><br /><br />
           Outside of computer programming and pursuing my career interests in technology, I enjoy spending time on other
           hobbies. A big passion of mine has always been playing sports, whether it be basketball, soccer, football, or my
