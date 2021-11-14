@@ -1,6 +1,6 @@
 import Navbars from './components/Navbar';
 import './App.css';
-import React from 'react';
+import React, { useEffect } from 'react';
 import { HashRouter, Switch, Route } from 'react-router-dom'
 import ReactDOM from 'react-dom';
 import Projects from './pages/projects';
@@ -14,6 +14,11 @@ import Home from './pages/home';
 
 // console.log(process.env.PUBLIC_URL);
 function App() {
+
+  useEffect(() => {
+    document.title = "Keshav Narasimhan"
+  }, [])
+
   return (
     <HashRouter>
       <Navbars />
