@@ -103,7 +103,6 @@ const Courses = () => {
                 &emsp;&emsp;&emsp;&bull; Analysis of Heap and memory management <br />
                 &emsp;&emsp;&emsp;&bull; Study of data structures such as linked lists, trees, stacks, and hashmaps  <br />
                 &emsp;&emsp;&emsp;&bull; Basic algorithms and time-complexity analysis <br />
-                &emsp;&emsp;&emsp;&bull; Introduction to OOP
               </p>
             </li>
           </ul>
